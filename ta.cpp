@@ -57,12 +57,16 @@ void insertionsort (int arr [],int n ){
 
              selectionsort (arr,n);
              printarray (arr, n);
+             cout << "taijul";
             
 
 
           
                 return 0;
         }
+
+
+        
 
 
 
