@@ -42,5 +42,5 @@ int lcm (int a ,int b){
     return (a*b)/gcd;
 }
 int main (){
-    cout <<lcm(20 , 28)<<endl;
+
 }
