@@ -14,7 +14,7 @@ void helper(vector<vector<int>> &mat, int r, int c, string path, vector<string> 
    {
       ans.push_back(path);
       return;
-   }
+   }  
    mat[r][c] =-1 ;
    helper(mat, r + 1, c, path + "D", ans);
    helper(mat, r - 1, c, path + "U", ans);
@@ -22,6 +22,7 @@ void helper(vector<vector<int>> &mat, int r, int c, string path, vector<string> 
    helper(mat, r, c + 1, path + "R", ans);
    mat[r][c] =1 ;
 }
+      
 vector<string> findpath(vector<vector<int>> &mat)
 {
    int n = mat.size();
